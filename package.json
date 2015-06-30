@@ -1,6 +1,6 @@
 {
   "name": "gulp-less-data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A LESS addition plugin for gulp-less",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,11 @@
     "type": "git",
     "url": "https://github.com/Secbone/gulp-less-data.git"
   },
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "less"
+  ],
   "author": "Secbone",
   "license": "ISC",
   "bugs": {
@@ -17,6 +22,9 @@
   },
   "homepage": "https://github.com/Secbone/gulp-less-data",
   "devDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "dependencies": {
     "gulp-util": "^3.0.6",
     "through2": "^2.0.0"
   }
