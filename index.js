@@ -29,9 +29,11 @@ function serializeData(data) {
 // Plugin level function(dealing with files)
 function gulpLessData(data) {
 
-  if (!data) {
+  /*if (!data) {
     throw new PluginError(PLUGIN_NAME, 'Missing less data!');
-  }
+  }*/
+
+  data = data || {};
 
   var prefixData = serializeData(data);
 
