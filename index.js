@@ -23,6 +23,8 @@ function serializeData(data) {
         }
     }
 
+    s += "\n";
+
     return s.toString();
 }
 

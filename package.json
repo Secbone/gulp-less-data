@@ -1,6 +1,6 @@
 {
   "name": "gulp-less-data",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A LESS addition plugin for gulp-less",
   "main": "index.js",
   "scripts": {
